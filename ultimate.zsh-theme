@@ -6,6 +6,7 @@ do
 done
 unset f
 
+myprompt=''
 myprompt+='$(__ultimate::prompt::hostname)'
 myprompt+='$(__ultimate::prompt::user)'
 myprompt+='$(__ultimate::prompt::job)'
